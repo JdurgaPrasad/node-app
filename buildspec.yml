@@ -6,7 +6,7 @@ phases:
       - cp -R ansible build-output
   post_build:
     commands:
-      - mv build-output/* ./
+      - mv build-output/* ./build-output2
 artifacts:
   files:
     - '**/*'
